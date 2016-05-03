@@ -81,11 +81,13 @@ Besides the initialization, you can modify the value representation and the text
 | Method | Params | Description |
 | ---------- | ---- | ----------- |
 | setValueText | text | Sets a new text to be shown inside the bar |
-| setVal | value,total | Sets a new percentage to fill the bar |
+| setTotal | total | Sets a new total value for the bar |
+| setVal | value | Sets a new value to fill the bar (total value is saved from init method) |
 
 ```
 $.win.on('click', function() {
-    $.vbar1.setValueText("50 of 75");
-    $.vbar1.setVal(50, 75);
+    $.vbar1.setTotal(60);
+    $.vbar1.setValueText("50 of 60");
+    $.vbar1.setVal(50);
 });
 ```

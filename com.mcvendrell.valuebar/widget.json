@@ -1,0 +1,13 @@
+{
+	"id": "com.mcvendrell.valuebar",
+	"name": "com.mcvendrell.valuebar",
+	"description": "Cross-platform value/progress bar component for Appcelerator Titanium Alloy projects.",
+	"author": "Manuel Conde, @mcvendrell",
+	"version": "1.0.0",
+	"copyright": "Copyright (c) 2016, Manuel Conde",
+	"license": "Apache 2.0",
+	"min-alloy-version": "1.0.0",
+	"min-titanium-version": "3.5",
+	"tags": "progressbar, bar, valuebar",
+	"platforms": "android,ios,windows"
+}

@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="wrapper">
+        <Label id="title" />
+        <View id="valueWrapper">
+            <View id="value" />
+            <Label id="valueText" />
+        </View>
+    </View>
+</Alloy>

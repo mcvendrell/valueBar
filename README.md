@@ -2,7 +2,7 @@
 
 A simple but customizable cross-platform value/progress bar component for Appcelerator Titanium Alloy projects.
 
-![Widget example](com.mcvendrell.valuebar/example.png)
+![Widget example](example.png)
 
 ##Manifest
 * Version: 1.0.0
@@ -82,3 +82,10 @@ Besides the initialization, you can modify the value representation and the text
 | ---------- | ---- | ----------- |
 | setValueText | text | Sets a new text to be shown inside the bar |
 | setVal | value,total | Sets a new percentage to fill the bar |
+
+```
+$.win.on('click', function() {
+    $.vbar1.setValueText("50 of 75");
+    $.vbar1.setVal(50, 75);
+});
+```
